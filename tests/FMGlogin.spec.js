@@ -5,8 +5,8 @@ test('FMG Login Page', async ({page}) => {
     await page.goto('https://test.fmj.group/login');
 
      // Fill in the valid credentials
-    await page.fill('#email', 'kekas11396@nausard.com');
-    await page.fill('#password', 'kekas11396@nausard.com');
+    await page.fill('#email', 'id@nausard.com');
+    await page.fill('#password', 'pass@nausard.com');
 
     // Click the login button
     await page.click("//button[normalize-space()='Login']");
