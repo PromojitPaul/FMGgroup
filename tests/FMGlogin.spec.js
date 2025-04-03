@@ -12,7 +12,7 @@ test('FMG Login Page', async ({page}) => {
     await page.click("//button[normalize-space()='Login']");
 
     // Wait for the page to load
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(6000);
 
     // Verify that the page title
     const pageTitel = await page.title();
